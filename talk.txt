@@ -1,0 +1,33 @@
+Hi I'm Josh, I graduated from IO Academy in December of 2020. I currently work as a full stack developer for The Collecting Group.
+
+We're a global marketplace for collectors to buy and sell, our main focus is cars and watches but we're always looking to expand into other markets.
+
+Today I'd like to show you a little of what I've learned about End-to-End testing with Cypress.
+
+I believe by this point in the course you've been introduced to the importance of testing and the different types of tests.
+Is that right? (Check response).
+
+Tests turn you into a super coder, they make you write efficient code the first time, and they save you hours of time in the future.
+
+So can anyone tell me what End to End testing is? It's ok if not(Wait for response)
+
+(end to end tests is checking that the application behaves as expected from the end users perspective.
+We're basically simulating how our users are going to use the application)
+
+Ok cool, so in my time at the academy we did a lot of unit tests and maybe a couple of integration tests? But didn't get as far as End to end tests.
+
+And that makes, there's lots of different opinions on testing out there, but generally you want a good amount of unit tests
+and a couple of integration tests in place before you get into end to end tests.
+
+(Explain the test triangle)
+One of the reasons you want your tests to look like this is because of the problems with end to end testing
+
+I'm sure by this point you're all thinking about applying to jobs, maybe some of you already have.
+You might even be thinking about what kind of work you'd like to be doing in your first job.
+During my time in the academy an area that I brushed over was testing.
+It wasn't something that I found particularly cool or interesting at the time,
+what I didn't know was that testing would be the focus of my first few months at my new job.
+When I first started at my job I quickly noticed that there was a lack of testing, the code base is PHP and React.
+the team was fairly new to React and while the PHP test coverage was good there was no testing to cover our Front End code.
+
+https://www.youtube.com/watch?v=hzJPLKVarMw
