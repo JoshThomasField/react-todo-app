@@ -30,7 +30,7 @@ const Task = ({ id, name, completed, color, index }) => {
           className={`task ${completed && "task-done"}`}
         >
           <p>{name}</p>
-          <button onClick={() => toggleDone(id)}>
+          <button id="completeTask" onClick={() => toggleDone(id)}>
             {completed ? <MdCheckBox /> : <MdCheckBoxOutlineBlank />}
           </button>
           <button onClick={() => removeTask(id)}>

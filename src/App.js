@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import {FaGithub} from 'react-icons/fa'
 import { v4 as uuid } from "uuid";
 import { DragDropContext } from "react-beautiful-dnd";
 import List from "./List";
@@ -87,6 +86,7 @@ const App = () => {
   return (
   <>
     <div className='container' onClick={hideColorsContainer}>
+      <h1>Todo App</h1>
       {isColorsOpen && <Colors />}
       {alert && <Alert msg={alert.msg} />}
       <form className='head' onSubmit={addTask}>
@@ -138,12 +138,9 @@ const App = () => {
           Clear All
         </button>
       )}
-	  <DarkModeToggle/>
+	  {/*<DarkModeToggle/>*/}
 	  
     </div>
-	<div class="footer">
-		<a href='https://github.com/ilyasbelaoud' target='_blank' rel="noopener noreferrer"><FaGithub className='github'/></a>
-	</div>
 	</>
   );
 };
